@@ -1,5 +1,7 @@
 # Matteo Homepage Fixes
 
+## Changes to HTML
+
 in index.html, change
 
 ```html
@@ -11,6 +13,8 @@ into
 ```html
 <li><a href="http://www.justly.com/blog/justlys-billing-guidelines-for-outside-counsel">About Us</a></li>
 ```
+
+## Changes to CSS
 
 in style.css, change
 
@@ -77,7 +81,7 @@ into
 }
 ```
 
-Add the following code at the bottom of custom.css:
+Finally, Add the following code at the bottom of custom.css:
 
 ```css
 /* ------ /FILTERED TABLE ------ */
