@@ -1,5 +1,17 @@
 # Matteo Homepage Fixes
 
+in index.html, change
+
+```html
+<li><a href="http://www.justly.com/blog/legal-timeline-analytics">About Us</a></li>
+```
+
+into 
+
+```html
+<li><a href="http://www.justly.com/blog/justlys-billing-guidelines-for-outside-counsel">About Us</a></li>
+```
+
 in style.css, change
 
 ```css
