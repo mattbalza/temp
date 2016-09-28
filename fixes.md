@@ -79,18 +79,29 @@ data-filter-placeholder="Seach"
 ## Changes to custom.css
 
 line 120. Change:
-
 ```css
 .boxed-3-case p  {
  font-family: 'GT-Walsheim-Pro-Thin-Oblique';
 }
 ```
-
-With:
-
+into:
 ```css
 .boxed-3-case p  {
  font-family: 'GT-Walsheim-Pro-Regular';
+}
+```
+
+line 161-163. Remove:
+```css
+.value-shower .docket-p {
+  margin-top:20px;
+}
+```
+
+line 165-168. Remove:
+```css
+.value-shower .docket-btn {
+    margin-top: 10px; 
 }
 ```
 
