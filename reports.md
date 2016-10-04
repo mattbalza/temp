@@ -8,7 +8,7 @@ https://gist.github.com/randylien/5683851#file-smartresize-js
 
 ## Changes to Reports page HTML
 
-Add the following inside the <head></head> tags:
+Add the following inside the head tags:
 ```html
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
@@ -93,7 +93,7 @@ Add the following inside the <head></head> tags:
       };
 
     </script>
-    ```
+```
 
 Replace the following to the heatmap's thumbnail <a> :
 ```html
