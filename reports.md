@@ -13,7 +13,22 @@ data-toggle="modal" data-target="#myModal"
 ```
 
 
-After the <div class="container-footer"> closes in </div>
+After
+```html
+    <div class="container footer">
+      <div class="row">
+        <div class="col-sm-10 col-md-offset-2">
+          <ul class="nav nav-pills">
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">About Justly</a></li>
+            <li><a class="show-intercom" href="mailto:info@justly.com">Contact Us</a></li>
+            <li class="copy">© 2016 Justly Inc. All rights reserved.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+ ```
 
 place the following:
 ```html
