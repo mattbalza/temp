@@ -3,10 +3,13 @@
 ## Changes to Reports page HTML
 
 
-Change:
-
+Replace the following to the heatmap's thumbnail <a> :
 ```html
-
+data-toggle="lightbox"
+```
+into
+```html
+data-toggle="modal" data-target="#myModal"
 ```
 
 
