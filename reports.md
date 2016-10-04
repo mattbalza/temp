@@ -13,7 +13,7 @@ data-toggle="modal" data-target="#myModal"
 ```
 
 
-After
+Also, after:
 ```html
     <div class="container footer">
       <div class="row">
