@@ -103,6 +103,7 @@ into
 ```html
 data-toggle="modal" data-target="#myModal"
 ```
+---
 
 Replace:
 ```html
@@ -116,6 +117,8 @@ With:
           <div class="row rep-dash">
 ```
 
+---
+
 Right before:
 ```html
 <div class="reports-layout">
@@ -125,6 +128,8 @@ Insert:
 ```html
 <div class="request-report"><button id="requestrep" class="btn btn-success btn-md show-form-report" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">REQUEST REPORT</button></div>
 ```
+
+---
 
 Right after this div closes:
 ```html
@@ -174,6 +179,8 @@ Insert:
           </div>
         </div>
 ```
+
+---
 
 Also, after:
 ```html
