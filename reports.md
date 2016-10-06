@@ -104,6 +104,8 @@ into
 data-toggle="modal" data-target="#myModal"
 ```
 
+Add the following 
+
 
 Also, after:
 ```html
@@ -142,3 +144,21 @@ place the following:
     </div>
 ```
 
+## Changes to CSS
+
+Add the following inside custom.css:
+
+```css
+.request-report {
+ text-align:center;
+  padding-left:80px;
+  padding-right:80px;
+  padding-bottom:30px;
+}
+
+.show-form-report{
+  border-radius:25px;
+  background-color:rgb(66,208,148); 
+  border:none;
+}
+```
