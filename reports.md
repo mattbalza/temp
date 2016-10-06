@@ -131,7 +131,7 @@ Insert:
 
 ---
 
-Right *after* this div closes:
+Right _after_ this div closes:
 ```html
 <div class="boxed-3 col-md-12">
 ...
