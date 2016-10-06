@@ -104,8 +104,76 @@ into
 data-toggle="modal" data-target="#myModal"
 ```
 
-Add the following 
+Replace:
+```html
+        <div class="boxed-3 col-md-12">
+          <div class="row">
+```
 
+With:
+```html
+        <div class="boxed-3 col-md-12">
+          <div class="row rep-dash">
+```
+
+Right before:
+```html
+<div class="reports-layout">
+```
+
+Insert:
+```html
+<div class="request-report"><button id="requestrep" class="btn btn-success btn-md show-form-report" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">REQUEST REPORT</button></div>
+```
+
+Right after this div closes:
+```html
+<div class="boxed-3 col-md-12">
+...
+</div>
+```
+
+Insert:
+```html
+        <div class="collapse" id="collapseExample">
+          <div class="well col-md-12">
+            <center><h2 class="dashboard-title">Request Form</h2></center>
+            <form class="form-horizontal">
+              <fieldset>
+
+                <!-- Select Basic -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="selectbasic">Report Type</label>
+                  <div class="col-md-4">
+                    <select id="selectbasic" name="selectbasic" class="form-control">
+                      <option value="1">Option one</option>
+                      <option value="2">Option two</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Textarea -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="report-notes">Additional Notes</label>
+                  <div class="col-md-4">                     
+                    <textarea class="form-control" id="report-notes" name="report-notes">Please further specify the type of report you want to receive</textarea>
+                  </div>
+                </div>
+
+                <!-- Button -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="singlebutton"></label>
+                  <div class="col-md-4">
+                    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Request</button>
+                  </div>
+                </div>
+
+              </fieldset>
+            </form>
+
+          </div>
+        </div>
+```
 
 Also, after:
 ```html
