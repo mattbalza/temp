@@ -19,6 +19,7 @@ Add the following in the footer of the page:
     });
   </script>
 ```
+---
 
 Add the following inside the head tags:
 ```html
