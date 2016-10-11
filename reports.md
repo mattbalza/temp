@@ -174,7 +174,7 @@ Insert:
                 <div class="form-group">
                   <label class="col-md-4 control-label" for="report-notes">Additional Notes</label>
                   <div class="col-md-4">                     
-                    <textarea class="form-control" id="report-notes" name="report-notes">Please further specify the type of report you want to receive</textarea>
+                    <textarea class="form-control" id="report-notes" placeholder="Please further specify the type of report you want to receive" name="report-notes"></textarea>
                   </div>
                 </div>
 
