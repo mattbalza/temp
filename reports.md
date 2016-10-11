@@ -164,6 +164,7 @@ Insert:
                   <label class="col-md-4 control-label" for="selectbasic">Report Type</label>
                   <div class="col-md-4">
                     <select id="selectbasic" name="selectbasic" class="form-control">
+                      <option value="" selected disabled>Please select</option>
                       <option value="1">Option one</option>
                       <option value="2">Option two</option>
                     </select>
