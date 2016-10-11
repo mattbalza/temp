@@ -107,7 +107,7 @@ Add the following inside the head tags:
 
     </script>
 ```
-
+---
 Replace the following to the heatmap's thumbnail <a> :
 ```html
 data-toggle="lightbox"
