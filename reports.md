@@ -8,6 +8,18 @@ https://gist.github.com/randylien/5683851#file-smartresize-js
 
 ## Changes to Reports page HTML
 
+Add the following in the footer of the page:
+```html
+  <script>
+    $(document).ready(function() {
+      $('#collapseExample').on('shown.bs.collapse', function () {
+  //var $target = $('html,body');
+  $('html,body').animate({ scrollTop: $("#collapseExample").offset().top + $('.rep-dash').height() }, 2000);
+});
+    });
+  </script>
+```
+
 Add the following inside the head tags:
 ```html
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
