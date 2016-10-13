@@ -1,6 +1,6 @@
 # Fixes
 
-## Changes to Reports page HTML
+## Changes to Case Assessment screen HTML
 
 Add the following in the footer of the page:
 
