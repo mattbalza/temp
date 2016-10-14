@@ -22,7 +22,14 @@ Add the following in the footer of the page:
 ---
 
 Add the following inside the head tags:
+ 
 ```html
+  <style>
+    .frame {position:relative; padding-top:100px;}
+    .separator {border-top: 1px solid #192957; width: 100%; height: 1px; position: absolute; left: 10; bottom: 0; padding-bottom: 42px;}
+    .logo-chart {position:absolute; right:0; bottom:0;}
+    .logo-chart img {width:200px;}
+  </style>
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('upcoming', {'packages':['geochart']});
@@ -97,7 +104,7 @@ Add the following inside the head tags:
           sizeAxis: {minValue: 1, maxValue:1,minSize:10,  maxSize: 10},
           keepAspectRatio: true
         };
-        var chart = new google.visualization.GeoChart(document.getElementById('geochart-colors'));
+        var chart = new google.visualization.GeoChart(document.getElementById('chart-container'));
         chart.draw(data, options);
 
         $(window).smartresize(function () {
@@ -224,7 +231,11 @@ place the following:
             <h4 class="modal-title" id="myModalLabel">JPMC CASE VOLUME BY STATE (2006-2016 YTD)</h4>
           </div>
           <div class="modal-body">
-                <center><div id="geochart-colors"></div></center>
+            <center><div id="chart-container"></div></center>
+            <div class="frame text-right">
+              <div class="separator"></div>
+              <div class="logo-chart"><img src="images/logo-chart.png"/></div>
+            </div>
           </div>
           <div class="modal-footer">
           </div>
