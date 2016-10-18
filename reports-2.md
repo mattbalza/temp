@@ -55,7 +55,7 @@ into: "bs-modal-lg" and "modal-lg"
 In the modal body, add a wrap around the "chart-container" div and remove the "center" tags, like this:
 ```html 
                 <div id="visualization_wrap">
-                <div id="chart-container"></div>
+                  <div id="chart-container"></div>
                 </div>
 ```
 
