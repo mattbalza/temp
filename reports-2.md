@@ -34,6 +34,9 @@ Insert:
       chart.draw(data, options);
     });
 ```
+
+This re-draws the chart right after the modal is opened, to make it fit nicely in it
+
 ---
 
 To change the modal size, edit in:
