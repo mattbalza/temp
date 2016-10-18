@@ -20,7 +20,9 @@ Insert:
 You might have to play with the chartArea %s to make it fit nicely in the modal
 
 ---
-Edit the "title" row inside the "var options"
+
+Also, Edit the "title" row inside the "var options", to make it smaller and not bold
+
 ---
 
 Right after:
