@@ -24,10 +24,10 @@ Edit the "title" row inside the "var options"
 ---
 
 Right after:
-
+```html 
    var chart = new google.visualization.ColumnChart(document.getElementById('chart-container'));
    chart.draw(data, options);
-   
+```
 Insert: 
 ```html 
     $('body').one('shown.bs.modal', '#myModal', function(){
