@@ -47,6 +47,7 @@ To change the modal size, edit in:
 the classes "bs-example-modal-md" and the "modal-md"
 into: "bs-modal-lg" and "modal-lg"
 (lg is for large, while md is for medium size)
+
 ---
 
 In the modal body, add a wrap around the "chart-container" div and remove the "center" tags, like this:
