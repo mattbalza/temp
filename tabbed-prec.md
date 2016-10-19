@@ -151,4 +151,6 @@ with the following:
 </div>
 
 ```
+Content for these tables is obviously a placeholder. The first tab, called "All Cases" will show all the precedents, while the second tab "My CaseS" will show only the company's one.
+
 ---
