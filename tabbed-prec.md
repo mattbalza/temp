@@ -1,5 +1,14 @@
 # Fixes
 
+## Changes to Custom.css
+
+Add:
+```css
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #fff;
+    background-color: #337ab7;
+```
+
 ## Changes to Case Assessment screen HTML
 
 Right after:
