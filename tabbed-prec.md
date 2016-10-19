@@ -9,7 +9,7 @@ Add:
     background-color: #337ab7;
     }
     
-    .nav-tabs>li>a {text-transform:uppercase;}
+.nav-tabs>li>a {text-transform:uppercase;}
 ```
 
 ## Changes to Case Assessment screen HTML
