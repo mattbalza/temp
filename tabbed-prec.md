@@ -7,6 +7,7 @@ Add:
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     color: #fff;
     background-color: #337ab7;
+    }
 ```
 
 ## Changes to Case Assessment screen HTML
