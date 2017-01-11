@@ -24,7 +24,7 @@ with the following:
   </h5>
     <h5>
       <div class="export-contain">
-        <a class="btn btn-lg btn-primary btn-export" format="xls" href="#">Export All Precedents</a>
+        <a class="btn btn-lg btn-primary btn-export" format="xls"  data-toggle="modal" data-target="#export" href="#">Export All Precedents</a>
       </div>
     </h5>
     <!-- Export Modal -->
