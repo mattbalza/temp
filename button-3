@@ -3,7 +3,7 @@
 
 ## Changes to the Case Assessment Page
 
-Substitute:
+Under the "My Cases" tab, substitute:
 ```html
           <center>
            <button class="btn btn-success btn-lg show-prec" type="button" data-toggle="collapse" data-target="#collapseMyCases" aria-expanded="false" aria-controls="collapseMyCases">
